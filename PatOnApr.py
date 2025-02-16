@@ -18,7 +18,7 @@ def graph():
 	for x in range(0,9009):
 		x = x/9
 		b = x/10
-		y = 45 * pow(b, 4) + 65 * pow(x, 3) +85 * pow(x, 2) + 105 * x -125
+		y = 45 * pow(b, 4) + 65 * pow(x, 3) +85 * pow(x, 2) + 105 * x -12
 		y = y/100000000
 
 		paint_pixel(x-4, y, rgbToHex(233,42,120))
